@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #0ac6e7;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+
+}
+
+main {
+    padding: 2em 1em;
+}
+
+.content {
+    margin: 2em 0;
+    padding: 1.5em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.content h2 {
+    color: #00838f;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    background: #4dd0e1;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+    color: #004d40;
+}
+
+
+.gambar {
+    text-align: center; /* Memposisikan gambar ke tengah */
+}
+
+.gambar img {
+    width: 400px; /* Menetapkan lebar gambar */
+    height: auto; /* Mengatur tinggi gambar agar tetap proporsional */
+}
+
+
+
+a {
+    color: #004d40;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
